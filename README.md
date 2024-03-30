@@ -1,27 +1,24 @@
-# GetstreamChatAngularExample
+# Chat App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.4.
+<div align="center">
+  <img src="https://cdn.codemortals.io/mascot/5.png" alt="Chat App" />
+</div>
 
-## Development server
+## Introduction
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- This is a chat application built using Angular, Firebase and Stream.io. 
+- Beginning with the implementation of basic authentication using Firebase, it seamlessly synchronized Firebase users with Stream.io through Firebase Cloud Functions. 
+- Through the integration of Stream Chat, the application offers users a smooth chat experience, encompassing essential functionalities such as user signup, signin, signout, and channel creation. 
 
-## Code scaffolding
+## Getting Started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- 1a. [optional] Fork the project
+- 1b. Clone the project (or your fork if you did step 1) with `git clone github.com/psankhe28/chat-app.git`
+- 1c. Navigate into the project directory `cd chat-app`
 
-## Build
+### Local development
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- 2a. Install project dependencies with `npm install`
+- 3a. In the `src/environments/environments.ts` replace it with your **Firebase** config
+- 4a. Run the project with `npm start`
+- 5a. Open in the browser `http://localhost:4200`
