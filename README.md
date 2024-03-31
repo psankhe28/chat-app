@@ -10,6 +10,9 @@
 - Beginning with the implementation of basic authentication using Firebase, it seamlessly synchronized Firebase users with Stream.io through Firebase Cloud Functions. 
 - Through the integration of Stream Chat, the application offers users a smooth chat experience, encompassing essential functionalities such as user signup, signin, signout, and channel creation. 
 
+## Demo
+[Demo Video](https://github.com/psankhe28/chat-app/assets/84843461/c5170827-3190-4c3f-82f2-49270e9d041a)
+
 ## Getting Started
 
 - 1a. [optional] Fork the project
